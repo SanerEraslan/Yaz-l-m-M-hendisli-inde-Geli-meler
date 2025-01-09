@@ -1,0 +1,6 @@
+services:
+  calculator:
+    image: calculatorr:1.0
+    ports:
+      - "31:31"
+    restart: always
